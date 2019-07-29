@@ -1,0 +1,18 @@
+{
+  "quienes_somos": {
+    "titulo": "Quienes Somos",
+    "parrafo": "Este es un parrafo de prueba. Para cambiar el textp de este parrafo editar el archivo informacionInicio.json en src/data/informacionInicio.json"
+  },
+  "nuestra_mision": {
+    "titulo": "Nuestra Mision",
+    "parrafo": "Este es un parrafo de prueba. Para cambiar el textp de este parrafo editar el archivo informacionInicio.json en src/data/informacionInicio.json"
+  },
+  "nuestra_vision": {
+    "titulo": "Nuestra Vision",
+    "parrafo": "Este es un parrafo de prueba. Para cambiar el textp de este parrafo editar el archivo informacionInicio.json en src/data/informacionInicio.json"
+  },
+  "nuestros_valores": {
+    "titulo": "Nuestros Valores",
+    "parrafo": "Este es un parrafo de prueba. Para cambiar el textp de este parrafo editar el archivo informacionInicio.json en src/data/informacionInicio.json"
+  }
+}
