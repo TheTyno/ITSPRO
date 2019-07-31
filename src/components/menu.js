@@ -4,11 +4,17 @@ import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 
-export default function Menu() {
+export default function Menu(props) {
   return (
     <Navbar bg="light" variant="light">
       <Navbar.Brand>
-        <Link to="/inicio">ITSPRO</Link>
+        <Link to="/inicio">
+          <img
+            src={require("../data/logo.png")}
+            alt="ITSPRO"
+            style={{ width: "200px", height: "55px" }}
+          />
+        </Link>
       </Navbar.Brand>
       <Nav className="mr-auto">
         <Nav.Link>
@@ -23,7 +29,12 @@ export default function Menu() {
           <Link to="/contacto">Contacto</Link>
         </Nav.Link>
       </Nav>
-      <Button variant="outline-primary">Contactanos</Button>
+      <Button
+        variant="outline-primary"
+        onClick={() => props.setShowModal(true)}
+      >
+        Contactanos
+      </Button>
     </Navbar>
   );
 }
